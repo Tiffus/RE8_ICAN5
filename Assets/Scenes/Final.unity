@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mist
       objectReference: {fileID: 0}
+    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 89
+      objectReference: {fileID: 0}
     - target: {fileID: 8783179502057909613, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
       propertyPath: m_RootOrder
       value: 0

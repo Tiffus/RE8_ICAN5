@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1112551804098102074}
-  m_IndirectSpecularColor: {r: 0.2840903, g: 0.29385376, b: 0.40055022, a: 1}
+  m_IndirectSpecularColor: {r: 0.2846101, g: 0.29388273, b: 0.40117514, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -137,6 +137,22 @@ PrefabInstance:
     - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
       propertyPath: ShapeModule.angle
       value: 89
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
+      propertyPath: CustomDataModule.vector0_0.maxCurve.m_Curve.Array.data[1].time
+      value: 0.09589539
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
+      propertyPath: CustomDataModule.vector0_0.maxCurve.m_Curve.Array.data[2].time
+      value: 0.8958801
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
+      propertyPath: CustomDataModule.vector0_0.maxCurve.m_Curve.Array.data[1].value
+      value: 0.6615372
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
+      propertyPath: CustomDataModule.vector0_0.maxCurve.m_Curve.Array.data[2].value
+      value: 0.5384617
       objectReference: {fileID: 0}
     - target: {fileID: 8783179502057909613, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
       propertyPath: m_RootOrder

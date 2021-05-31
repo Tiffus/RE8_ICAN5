@@ -52,5 +52,5 @@ Material:
     - AnimSpeed: 6
     m_Colors:
     - ScrollSpeed: {r: 1, g: 0, b: 0, a: 0}
-    - _Color: {r: 7.6235294, g: 4.6431375, b: 0.40784314, a: 0}
+    - _Color: {r: 3.811765, g: 2.3349555, b: 0.21952572, a: 0}
   m_BuildTextureStacks: []

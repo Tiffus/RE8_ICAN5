@@ -336,30 +336,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mist
       objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: CustomDataModule.vector0_1.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: CustomDataModule.vector0_1.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909586, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: CustomDataModule.vectorComponentCount0
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909587, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: m_VertexStreams.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909587, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: m_VertexStreams.Array.data[4]
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 8783179502057909587, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
-      propertyPath: m_VertexStreams.Array.data[5]
-      value: 32
-      objectReference: {fileID: 0}
     - target: {fileID: 8783179502057909613, guid: 7271b13c6110dcb48af33174a04ea6a0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -591,3 +567,60 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 17c44fb3e5be9644586a0728a5f5a386, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f9825576f1c62b4db099dae184ea43a, type: 3}
+--- !u!1001 &7164203920043868788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7012002501249030270, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58010626
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.81454086
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -109.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776510080115465423, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bc0cbdc36913204495dcc9c7eda4f1a, type: 3}

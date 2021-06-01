@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 407095446197897995}
+  - component: {fileID: 7220275888142654585}
   m_Layer: 0
-  m_Name: Grille
+  m_Name: grille
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,12 +26,25 @@ Transform:
   m_GameObject: {fileID: 3715882268993449170}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3500035, y: 0.3500035, z: 0.3500035}
   m_Children:
   - {fileID: 7353234940607045259}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7220275888142654585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3715882268993449170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.38, y: 8.317294, z: 15.07556}
+  m_Center: {x: -0.0000023958044, y: 3.5401049, z: -4.834054}
 --- !u!1001 &7025977455825582432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60,15 +74,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1982aa9046a89f246a6c4b3fefc93b4d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1982aa9046a89f246a6c4b3fefc93b4d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1982aa9046a89f246a6c4b3fefc93b4d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1982aa9046a89f246a6c4b3fefc93b4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

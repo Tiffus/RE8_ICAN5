@@ -1,21 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class FootStepSounds : MonoBehaviour
 {
 
-    public List<AudioClip> soundsList;
+	public List<AudioClip> soundsList;
 	public float stepDistance;
 	public float distance;
 
 	public float randomPitch = 0.2f;
 
-	AudioSource audioSrc;
+	AudioSource[] audioSrc;
+	int nextSource = 0;
+
 
 	private void Awake()
 	{
-        audioSrc = GetComponent<AudioSource>();
+		audioSrc = GetComponents<AudioSource>();
 	}
 
 
@@ -31,10 +34,18 @@ public class FootStepSounds : MonoBehaviour
 	void PlaySound()
 	{
 		//passe un sound dans l'audiosource, son aléatoire dans la liste des sons
-		audioSrc.clip = soundsList[Random.Range(0, soundsList.Count)];
+		audioSrc[nextSource].clip = soundsList[Random.Range(0, soundsList.Count)];
 
-		audioSrc.pitch = Random.Range(1f - randomPitch, 1f + randomPitch);
+		audioSrc[nextSource].pitch = Random.Range(1f - randomPitch, 1f + randomPitch);
 
-		audioSrc.Play();
+		audioSrc[nextSource].Play();
+
+		nextSource++;
+
+		if (nextSource > 1)
+		{
+			nextSource = 0;
+		}
+
 	}
 }

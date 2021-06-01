@@ -29,6 +29,8 @@ public class FPSWalkerEnhanced : MonoBehaviour
 	public bool canMove = true;
 	internal bool shootAxis;
 
+	public FootStepSounds FSsounds;
+
 
 	void Start()
 	{
@@ -55,8 +57,26 @@ public class FPSWalkerEnhanced : MonoBehaviour
 		bool isRunning = Input.GetKey(KeyCode.LeftShift);
 		float curSpeedX = canMove ? (isRunning ? runningSpeed : walkingSpeed) * horizontalMoveAmount : 0;
 		float curSpeedY = canMove ? (isRunning ? runningSpeed : walkingSpeed) * verticalMoveAmount : 0;
+
 		float movementDirectionY = moveDirection.y;
 		moveDirection = (forward * curSpeedY) + (right * curSpeedX);
+
+		if (moveDirection.magnitude > 0)
+		{
+			if (isRunning)
+			{
+				FSsounds.distance += runningSpeed * Time.deltaTime;
+			}
+			else
+			{
+				FSsounds.distance += walkingSpeed * Time.deltaTime;
+			}
+		}
+		else
+		{
+			FSsounds.distance = 0;
+		}
+
 
 		if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
 		{

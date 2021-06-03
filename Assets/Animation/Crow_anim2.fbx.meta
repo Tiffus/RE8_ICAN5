@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ce68610ff9ea0bb4d90f90cf8762796f
+guid: 893976c510a8f11418d4c734fe090ced
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: Idle1
+    second: Idle2
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle1
+      name: Idle2
       takeName: Take 001
       internalID: 0
       firstFrame: 1
@@ -117,7 +117,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 3
+    globalScale: 0.03
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

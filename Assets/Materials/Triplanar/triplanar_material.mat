@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: triplanar_material
+  m_Shader: {fileID: -6465566751694194690, guid: 5161c176a3e60304c90f2cd9e8e72d84, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - ice_AO:
+        m_Texture: {fileID: 2800000, guid: 4902d2c383821ad4a92e6d12deca3efd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ice_albedo:
+        m_Texture: {fileID: 2800000, guid: f0b906083a82b594d92a659da522aca2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ice_normal:
+        m_Texture: {fileID: 2800000, guid: 6159e79b05c7fe54c97517890bbed6cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - ice_roughness:
+        m_Texture: {fileID: 2800000, guid: 71be712048b6057478aaa07643f2aa01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - rock_AO:
+        m_Texture: {fileID: 2800000, guid: 9c832a5a7c44d7d4a9d980c97d47c4dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - rock_roughness:
+        m_Texture: {fileID: 2800000, guid: e514e0bff796fcc4eb376b0bf32aa0fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - stone_albedo:
+        m_Texture: {fileID: 2800000, guid: bd8a88714e0eae440a8cda0d8b5ab0c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - stone_normal:
+        m_Texture: {fileID: 2800000, guid: 5c18c131ea7126549be4a85cef408847, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - YAngle: 0.41
+    - YValue: 1.54
+    - metallic_amount: 0.014
+    m_Colors: []
+  m_BuildTextureStacks: []

@@ -504,6 +504,10 @@ PrefabInstance:
       propertyPath: m_RenderPostProcessing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6593729318687380807, guid: 1f9825576f1c62b4db099dae184ea43a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53a4218b9b94fe24d8205774346c3bb2, type: 2}
     - target: {fileID: 6593729318999724563, guid: 1f9825576f1c62b4db099dae184ea43a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

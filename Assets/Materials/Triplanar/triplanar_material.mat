@@ -65,7 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - YAngle: 0.41
+    - YAngle: 0.291
     - YValue: 1.54
     - metallic_amount: 0.014
     m_Colors: []

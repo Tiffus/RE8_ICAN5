@@ -130,10 +130,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 868044374949094359, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ae3b95d70c6a7694ba79f08993d6409e, type: 2}
     - target: {fileID: 1904293865300091652, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
       propertyPath: m_Name
       value: PortePierre
       objectReference: {fileID: 0}
+    - target: {fileID: 4828287490796043712, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 98b19a60f84a3924a9d1e42f0cf601b1, type: 2}
+    - target: {fileID: 4828287490796043712, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0303653b7c2013048b84963a5ba86178, type: 2}
     - target: {fileID: 6208670059403266197, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -178,6 +190,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7665105050094958101, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7793267239a624438a1dd710aab8c06, type: 2}
+    - target: {fileID: 8508582067812418497, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d7793267239a624438a1dd710aab8c06, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
 --- !u!1 &730905132

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028574, g: 0.22571678, b: 0.30692503, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 16.8
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bbc3db7ef512e17478fb73fa24d048c6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d5ab780b44d1364785ead0c49392db6, type: 2}
     - target: {fileID: 919132149155446097, guid: bbc3db7ef512e17478fb73fa24d048c6, type: 3}
       propertyPath: m_Name
       value: tombe_4
@@ -437,6 +441,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 624654398391004477, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d5ab780b44d1364785ead0c49392db6, type: 2}
     - target: {fileID: 638107383986444209, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -481,9 +489,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3753277694345589303, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b780c60cefddaf04baf2f115a48add89, type: 2}
     - target: {fileID: 6580451696677339803, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}
       propertyPath: m_Name
       value: tombes_2
       objectReference: {fileID: 0}
+    - target: {fileID: 7858102002243779999, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: decd4804ce6e86e45b00d605877ca84e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc2ff5a9edc660f43a62d4d644f3e8cf, type: 3}

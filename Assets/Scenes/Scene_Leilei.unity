@@ -138,6 +138,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PortePierre
       objectReference: {fileID: 0}
+    - target: {fileID: 4828287490796043712, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 98b19a60f84a3924a9d1e42f0cf601b1, type: 2}
+    - target: {fileID: 4828287490796043712, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0303653b7c2013048b84963a5ba86178, type: 2}
     - target: {fileID: 6208670059403266197, guid: 4aa68de1c05bad74691dc27c41568a1e, type: 3}
       propertyPath: m_RootOrder
       value: 2

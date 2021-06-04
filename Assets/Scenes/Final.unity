@@ -935,6 +935,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.635
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1a117b3f7c5da9d4d8fb30a7a70605ed, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: decd4804ce6e86e45b00d605877ca84e, type: 2}
     - target: {fileID: 919132149155446097, guid: 1a117b3f7c5da9d4d8fb30a7a70605ed, type: 3}
       propertyPath: m_Name
       value: tombe_6 (1)
@@ -9370,6 +9374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.879
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2c35bb2a122ed1547a0ea33da5888c1c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b780c60cefddaf04baf2f115a48add89, type: 2}
     - target: {fileID: 919132149155446097, guid: 2c35bb2a122ed1547a0ea33da5888c1c, type: 3}
       propertyPath: m_Name
       value: tombe_5 (2)
@@ -13129,6 +13137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -5.795
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2c35bb2a122ed1547a0ea33da5888c1c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b780c60cefddaf04baf2f115a48add89, type: 2}
     - target: {fileID: 919132149155446097, guid: 2c35bb2a122ed1547a0ea33da5888c1c, type: 3}
       propertyPath: m_Name
       value: tombe_5 (1)
@@ -14267,6 +14279,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1219919157}
     m_Modifications:
+    - target: {fileID: 911819343058739010, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: decd4804ce6e86e45b00d605877ca84e, type: 2}
     - target: {fileID: 2084113295975343149, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -14295,6 +14311,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
+    - target: {fileID: 2719842348896635548, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d5ab780b44d1364785ead0c49392db6, type: 2}
     - target: {fileID: 2873908186724392184, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -14383,6 +14403,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6178000611993424106, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b780c60cefddaf04baf2f115a48add89, type: 2}
+    - target: {fileID: 7566556594929209312, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8d5ab780b44d1364785ead0c49392db6, type: 2}
     - target: {fileID: 8451622904932905429, guid: bcd3603d4c56cd845bd3ba6760de59b7, type: 3}
       propertyPath: m_Name
       value: TOMBS_Othman
